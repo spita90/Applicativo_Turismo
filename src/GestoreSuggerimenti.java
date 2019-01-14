@@ -28,7 +28,7 @@ class GestoreSuggerimenti {
                 sitoPiuVicino = (Sito) sito.getValue();
             }
         }
-        if (Applicativo_Turismo.argomenti.contains("v")) {
+        if (ApplicativoTurismo.argomenti.contains("v")) {
             if (sitoPiuVicino != null) {
                 System.out.println("Il sito (incluso nel biglietto) più vicino è: " + sitoPiuVicino.getNome());
             }
@@ -39,7 +39,7 @@ class GestoreSuggerimenti {
                 percorsiDisponibili) {
             if (percorso.getLuoghiAttraversati().contains(sitoPiuVicino)) {
                 percorsoProponibile = percorso;
-                if(Applicativo_Turismo.argomenti.contains("v")){
+                if(ApplicativoTurismo.argomenti.contains("v")){
                     System.out.println("il quale è contenuto nel percorso: "+percorsoProponibile.getNomePercorso());
                 }
                 break;

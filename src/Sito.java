@@ -38,12 +38,12 @@ class Sito extends Luogo {
             }
         }
         if (success) {
-            if (Applicativo_Turismo.argomenti.contains("v")) {
+            if (ApplicativoTurismo.argomenti.contains("v")) {
                 System.out.println("Prenotazione riuscita per " + getNome() + " alle ore " + orarioPrenotazione.getOraInizio());
             }
             return new Prenotazione(orarioPrenotazione);
         } else {
-            if (Applicativo_Turismo.argomenti.contains("v")) {
+            if (ApplicativoTurismo.argomenti.contains("v")) {
                 System.out.println("Prenotazione fallita per " + getNome());
             }
             return null;
@@ -53,7 +53,7 @@ class Sito extends Luogo {
     void revocaPrenotazione(Prenotazione prenotazioneDaRevocare) {
         if (necessitaPrenotazione && prenotazioneDaRevocare != null) {
             prenotazioneDaRevocare.getOrario().setPersoneInCoda(prenotazioneDaRevocare.getOrario().getPersoneInCoda() - 1);
-            if(Applicativo_Turismo.argomenti.contains("v")){
+            if(ApplicativoTurismo.argomenti.contains("v")){
                 System.out.println("Prenotazione per "+getNome()+" alle ore "+prenotazioneDaRevocare.getOrario().getOraInizio()+" revocata");
             }
         }

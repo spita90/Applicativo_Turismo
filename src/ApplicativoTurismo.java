@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Applicativo_Turismo {
+class ApplicativoTurismo {
 
     static final ArrayList<String> argomenti = new ArrayList<>();
 

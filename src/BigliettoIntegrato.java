@@ -5,7 +5,7 @@ class BigliettoIntegrato extends Biglietto {
     BigliettoIntegrato(Sito sitoDiRiferimento, Biglietto bigliettoDaIntegrare){
         super(sitoDiRiferimento);
         this.bigliettoDaIntegrare=bigliettoDaIntegrare;
-        if (Applicativo_Turismo.argomenti.contains("v")){
+        if (ApplicativoTurismo.argomenti.contains("v")){
             System.out.println("Biglietto per "+sitoDiRiferimento.getNome()+" decorato con biglietto per "+bigliettoDaIntegrare.getSitoDiRiferimento().getNome());
         }
     }
