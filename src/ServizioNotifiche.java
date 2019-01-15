@@ -1,8 +1,4 @@
-class ServizioNotifiche {
-
-    private static Biglietto biglietto;
-
-    private static Posizione posizioneCorrente;
+final class ServizioNotifiche {
 
 
     static void attiva(Biglietto biglietto, Posizione posizioneCorrente) {
@@ -13,11 +9,4 @@ class ServizioNotifiche {
         //implementare
     }
 
-    static void updatePosizione(Posizione posizioneCorrente){
-        ServizioNotifiche.posizioneCorrente =posizioneCorrente;
-    }
-
-    static Posizione getPosizioneCorrente() {
-        return posizioneCorrente;
-    }
 }

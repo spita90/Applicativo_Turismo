@@ -1,4 +1,4 @@
-class Utente {
+final class Utente {
 
 
     private Biglietto biglietto;

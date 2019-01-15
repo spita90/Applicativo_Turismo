@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Percorso {
+final class Percorso {
 
     private final ArrayList<Luogo> luoghiAttraversati = new ArrayList<>();
     private final String nomePercorso;

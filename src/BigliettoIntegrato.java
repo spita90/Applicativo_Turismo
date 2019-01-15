@@ -1,4 +1,4 @@
-class BigliettoIntegrato extends Biglietto {
+final class BigliettoIntegrato extends Biglietto {
 
     private final Biglietto bigliettoDaIntegrare;
 
@@ -10,7 +10,7 @@ class BigliettoIntegrato extends Biglietto {
         }
     }
 
-    Biglietto getBigliettoDaIntegrare() {
+    final Biglietto getBigliettoDaIntegrare() {
         return bigliettoDaIntegrare;
     }
 

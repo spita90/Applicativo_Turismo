@@ -1,4 +1,4 @@
-class FasciaOraria {
+final class FasciaOraria {
 
 
     private final int oraInizio;

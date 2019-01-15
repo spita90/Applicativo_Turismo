@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
-class GestoreSuggerimenti {
+final class GestoreSuggerimenti {
 
     private final static ArrayList<Percorso> percorsiDisponibili = new ArrayList<>();
     private static HashMap<Double, Sito> sitiDaBigliettoConDistanze = new HashMap<Double, Sito>() {

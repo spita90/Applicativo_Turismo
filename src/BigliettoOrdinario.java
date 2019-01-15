@@ -1,4 +1,4 @@
-class BigliettoOrdinario extends Biglietto {
+final class BigliettoOrdinario extends Biglietto {
 
     BigliettoOrdinario(Sito sitoDiRiferimento) {
         super(sitoDiRiferimento);

@@ -1,4 +1,4 @@
-class IndirizzoWeb {
+final class IndirizzoWeb {
 
     private final String url;
 

@@ -1,4 +1,4 @@
-class Prenotazione {
+final class Prenotazione {
 
     private final FasciaOraria orario;
 

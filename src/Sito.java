@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Sito extends Luogo {
+final class Sito extends Luogo {
 
     private final float prezzoIngresso;
     private final boolean necessitaPrenotazione;

@@ -1,4 +1,4 @@
-class Tariffazione {
+final class Tariffazione {
 
     static final int percentualeSconto = 50;
 

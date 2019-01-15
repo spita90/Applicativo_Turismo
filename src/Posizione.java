@@ -1,4 +1,4 @@
-class Posizione {
+final class Posizione {
 
     private double lat;
     private double lon;
